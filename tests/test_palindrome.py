@@ -28,6 +28,7 @@ class PalindromeTest(unittest.TestCase):
     self.assertTrue(pal.is_palindrome("race car"))
     # palindrome with spaces and upper case letters
     self.assertTrue(pal.is_palindrome("A Butt Tuba"))
+    
 
 if __name__=='__main__':
   unittest.main()
